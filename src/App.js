@@ -36,11 +36,9 @@ return (
     Bruna Ferraz
   </h1>
   <h2 className='subtitulo'>
-    Professora de dança
+  Gerando experiências e criando conexões
   </h2>
-<p className='frase'>
-  Gerando experiências e criando conexões.
-</p>
+
 
 </div>
 
