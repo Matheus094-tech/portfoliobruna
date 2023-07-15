@@ -41,3 +41,15 @@
     text-align: end;
     padding: 0px 50px 50px 50px;
 }
+
+.navbar-collapse{
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler-icon {
+    color: red
+  }
+ 
+  .navbar-dark .navbar-toggler-icon {
+    color: red
+  }
