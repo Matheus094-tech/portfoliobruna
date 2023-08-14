@@ -35,11 +35,6 @@ export default function Curriculo() {
       caption: "",
     },
     {
-      src: require("./../../assets/turmas/5.JPG"),
-      altText: "Slide 4",
-      caption: "",
-    },
-    {
       src: require("./../../assets/turmas/6.JPG"),
       altText: "Slide 4",
       caption: "",
@@ -56,11 +51,6 @@ export default function Curriculo() {
     },
     {
       src: require("./../../assets/turmas/9.JPG"),
-      altText: "Slide 4",
-      caption: "",
-    },
-    {
-      src: require("./../../assets/turmas/10.JPG"),
       altText: "Slide 4",
       caption: "",
     },
@@ -145,12 +135,7 @@ export default function Curriculo() {
       caption: "",
     },
     {
-      src: require("./../../assets/turmas/2.JPG"),
-      altText: "Slide 4",
-      caption: "",
-    },
-    {
-      src: require("./../../assets/turmas/28.JPG"),
+      src: require("./../../assets/turmas/27.JPG"),
       altText: "Slide 4",
       caption: "",
     },
