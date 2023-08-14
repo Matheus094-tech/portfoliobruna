@@ -71,14 +71,14 @@ body {
   background-color: #edd2cb;
 }
 
-.secao-sobremim{
+/*.secao-sobremim{
   background-color: #585350!important;
 }
 
 .secao-equipe{
   background-color: #decfc7!important;
 }
-
+*/
 svg path {
   fill: #585350;
 }
