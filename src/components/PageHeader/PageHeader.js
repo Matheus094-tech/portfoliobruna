@@ -15,6 +15,7 @@ export default function PageHeader() {
       <Container>
         <div className="header">
           <h1 className="titulo">Bruna Ferraz</h1>
+          <p className="profissao">Professora de dança</p>
           <TypeAnimation
             preRenderFirstString={true}
             sequence={[

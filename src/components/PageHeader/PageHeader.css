@@ -12,6 +12,36 @@
   padding: 50px 50px 0px 50px;
 }
 
+.navBarTexto {
+  font-weight: 500 !important;
+  color: #d7a46a;
+}
+
+.textoSobre {
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+
+p {
+  color: black;
+}
+
+.profissao {
+  line-height: 1;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Parisienne", handwriting;
+  color: #d7a46a;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: end;
+  padding: 0px 50px 0px 50px;
+}
+
 .subtitulo {
   line-height: 1;
   letter-spacing: 0px;
@@ -27,20 +57,20 @@
 }
 
 .header {
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    z-index: 2;
-     transform: translate(-50%, -50%);
-    text-align: center;
-    color: #ffffff;
-    padding: 0 15px;
-    width: 100%;
-    max-width: 880px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 880px;
 }
 
-body{
-  background-color: #decfc7;
+body {
+  background-color: #edd2cb;
 }
 
 svg path {
@@ -52,19 +82,20 @@ svg path {
   font-weight: bold;
   font-size: 22px;
   font-family: "Gilroy-Bold";
-  color:#585350
+  color: #585350;
 }
 
-.carousel-item img{
-  width: 100%!important;
-  height: 400px!important;
+.carousel-item img {
+  width: 100% !important;
+  height: 400px !important;
   object-fit: cover;
 }
 
-.footer-bruna{
+.footer-bruna {
   padding: 50px 0;
   border-top: 2px solid white;
-  background: #c1aa9e !important;
+  background: #decfc7 !important;
+  text-align: center;
 }
 
 .iconeFooter {
@@ -74,4 +105,23 @@ svg path {
 
 .iconeFooter:hover {
   color: #ecd9d3;
+}
+
+.cv .cv-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.cv .cv-item h4 {
+  line-height: 18px;
+  font-weight: 550;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.cv .cv-item h5 {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: white;
 }

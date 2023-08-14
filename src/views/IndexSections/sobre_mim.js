@@ -1,10 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
 export default function Sobre() {
-  const newLocal = "https://brhain.com.br/";
 
   return (
     <div className="section" id="sobre-mim">
@@ -14,12 +13,19 @@ export default function Sobre() {
         </h2>
         <Row>
           <Col md="6">
-            <div data-aos="fade-up" style={{textAlign: 'center', color: 'white'}}>
-            <img
-          alt="..."
-          style={{ position: "absolute", opacity: "0.4", top: "500px", left: "-5px" }}
-          src={require("assets/img/square6.png")}
-        />
+            <div
+              data-aos="fade-up"
+              style={{ textAlign: "center", color: "white" }}>
+              <img
+                alt="..."
+                style={{
+                  position: "absolute",
+                  opacity: "0.4",
+                  top: "500px",
+                  left: "-5px",
+                }}
+                src={require("assets/img/square6.png")}
+              />
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -64,23 +70,17 @@ l7 -59 -43 39 c-182 163 -957 898 -952 903 7 8 782 130 809 128 16 -2 23 -18
                 </g>
               </svg>
             </div>
-            <div className="mt-5">
+            <div className="mt-5 textoSobre">
               <p data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                Apresentar um repertório de formação pelo mais alto nível e
+                excelência no ensino da dança.
               </p>
             </div>
           </Col>
           <Col md="6">
-            <div data-aos="fade-up" style={{textAlign: 'center', color: 'white'}}>
+            <div
+              data-aos="fade-up"
+              style={{ textAlign: "center", color: "white" }}>
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -140,28 +140,26 @@ m82 -1390 l38 -116 -22 -57 c-11 -31 -32 -73 -45 -95 l-23 -38 -6 58 c-16 152
                 </g>
               </svg>
             </div>
-            <div className="mt-5">
+            <div className="mt-5 textoSobre">
               <p data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                Ser referência de ensino de dança na Cidade de Guarulhos.
               </p>
             </div>
           </Col>
           <Col md="6">
-            <div data-aos="fade-up" style={{textAlign: 'center', color: 'white'}}>
-            <img
-          alt="..."
-          style={{ position: "absolute", opacity: "0.4", top: "500px", left: "-5px" }}
-          src={require("assets/img/square5.png")}
-        />
+            <div
+              data-aos="fade-up"
+              style={{ textAlign: "center", color: "white" }}>
+              <img
+                alt="..."
+                style={{
+                  position: "absolute",
+                  opacity: "0.4",
+                  top: "500px",
+                  left: "-5px",
+                }}
+                src={require("assets/img/square5.png")}
+              />
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -231,23 +229,18 @@ c40 -43 118 -93 181 -115 l51 -18 -18 -48 c-45 -118 -150 -233 -241 -263 -88
                 </g>
               </svg>
             </div>
-            <div className="mt-5">
+            <div className="mt-5 textoSobre">
               <p data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                Ética profissional, comprometimento, transparência, inovação,
+                acolhimento, transformação, trabalho em equipe, igualdade,
+                inclusão respeito e amor.
               </p>
             </div>
           </Col>
           <Col md="6">
-            <div data-aos="fade-up" style={{textAlign: 'center', color: 'white'}}>
+            <div
+              data-aos="fade-up"
+              style={{ textAlign: "center", color: "white" }}>
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -298,18 +291,17 @@ m-2197 -65 c81 -308 405 -490 709 -399 183 56 346 228 389 411 13 59 13 58 20
                 </g>
               </svg>
             </div>
-            <div className="mt-5">
+            <div className="mt-5 textoSobre">
               <p data-aos="fade-up">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                Trazendo sua paixão e valorização pela arte e da dança, ajudando
+                pessoas a descobrirem a dança que existe dentro de si sem
+                paradigmas. Através de nossas aulas queremos transmitir valores
+                e proporcionar benefícios físicos e emocionais aos nossos alunos
+                oferecendo nossas aulas de baby fraldinha para alunos apartir de
+                1 ano e 6 meses, balé preparatório, jazz dance e ballet adulto.
+                Sempre oferecendo, aulas temáticas, lúdicas e pedagógicas para
+                que nossos alunos possam se desenvolver de forma integral
+                através da dança.
               </p>
             </div>
           </Col>

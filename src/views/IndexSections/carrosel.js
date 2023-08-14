@@ -52,8 +52,8 @@ export default function Curriculo() {
           Aulas
         </h2>
         <Row>
-          <Col md="12">
-            <UncontrolledCarousel
+          <Col data-aos="fade-up" md="12">
+            <UncontrolledCarousel data-aos="fade-up"
               items={carouselItems}
               indicators={true}
               autoPlay={true}

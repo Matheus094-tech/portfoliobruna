@@ -2,21 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
 import {
-  Button,
   Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
   Nav,
   Container,
-  Row,
-  Col,
-  UncontrolledTooltip,
 } from "reactstrap";
 
 export default function IndexNavbar() {
@@ -42,27 +34,12 @@ export default function IndexNavbar() {
       setColor("navbar-transparent");
     }
   };
-  const toggleCollapse = () => {
-    document.documentElement.classList.toggle("nav-open");
-    setCollapseOpen(!collapseOpen);
-  };
-  const onCollapseExiting = () => {
-    setCollapseOut("collapsing-out");
-  };
-  const onCollapseExited = () => {
-    setCollapseOut("");
-  };
-  const scrollToDownload = () => {
-    document
-      .getElementById("download-section")
-      .scrollIntoView({ behavior: "smooth" });
-  };
   return (
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <span style={{ fontFamily: "Parisienne" }}>Cia Bruna Ferraz</span>
+            <span className="navBarTexto">Bruna Ferraz</span>
           </NavbarBrand>
           <Nav
             aria-expanded={collapseOpen}
@@ -71,7 +48,7 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://api.whatsapp.com/send?phone=5511991502640&text=Ol%C3%A1,%20gostaria%20de%20conhecer%20sua%20escola!/"
+                href="https://api.whatsapp.com/send?phone=5511964230207&text=Ol%C3%A1,%20gostaria%20de%20conhecer%20sua%20escola!"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="WhatsApp">
@@ -79,7 +56,7 @@ export default function IndexNavbar() {
               </NavLink>
               <NavLink
                 data-placement="bottom"
-                href="https://instagram.com"
+                href="https://www.instagram.com/profbruferraz/"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Github">
@@ -96,7 +73,7 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://api.whatsapp.com/send?phone=5511991502640&text=Ol%C3%A1,%20gostaria%20de%20conhecer%20sua%20escola!/"
+                href="https://api.whatsapp.com/send?phone=5511964230207&text=Ol%C3%A1,%20gostaria%20de%20conhecer%20sua%20escola!"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="WhatsApp">
@@ -107,7 +84,7 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://instagram.com"
+                href="https://www.instagram.com/profbruferraz/"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Github">
