@@ -11,7 +11,7 @@ export default function Habilidades() {
   }, []);
 
   return (
-    <div className="section" id="habilidades">
+    <div className="section secao-equipe" id="equipe">
       <Container>
         <img
           alt="..."
