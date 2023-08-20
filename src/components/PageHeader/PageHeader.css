@@ -1,15 +1,11 @@
 .titulo {
-  line-height: 1;
-  letter-spacing: 0px;
   font-weight: 400;
   font-style: normal;
-  font-family: "Parisienne", handwriting;
+  font-family: "Parisienne";
   color: #d7a46a;
   font-size: 80px;
   line-height: 1;
-  letter-spacing: 1px;
-  text-align: end;
-  padding: 50px 50px 0px 50px;
+  text-align: center;
 }
 
 .navBarTexto {
@@ -29,16 +25,13 @@ p {
 }
 
 .profissao {
-  line-height: 1;
-  letter-spacing: 0px;
   font-weight: 400;
   font-style: normal;
   color: #d7a46a;
   font-size: 32px;
   line-height: 1;
   letter-spacing: 1px;
-  text-align: end;
-  padding: 0px 50px 0px 50px;
+  text-align: center;
 }
 
 .subtitulo {
@@ -57,7 +50,7 @@ p {
 .header {
   position: absolute;
   top: 50%;
-  left: 60%;
+  left: 50%;
   z-index: 2;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -68,17 +61,19 @@ p {
 }
 
 body {
-  background-color: #edd2cb;
+  background-color: #f5ece5;
 }
 
-/*.secao-sobremim{
-  background-color: #585350!important;
+.fundo-um{
+  background-color: #f5ece5!important;
 }
 
-.secao-equipe{
-  background-color: #decfc7!important;
+.fundo-dois{
+  background-color: #e4d0c9!important;
 }
-*/
+
+
+
 svg path {
   fill: #585350;
 }
@@ -123,6 +118,7 @@ svg path {
   color: white;
   margin-bottom: 10px;
 }
+
 
 .cv .cv-item h5 {
   display: inline-block;

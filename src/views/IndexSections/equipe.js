@@ -11,7 +11,7 @@ export default function Habilidades() {
   }, []);
 
   return (
-    <div className="section secao-equipe" id="equipe">
+    <div className="section fundo-um" id="equipe">
       <Container>
         <img
           alt="..."
@@ -23,11 +23,12 @@ export default function Habilidades() {
           }}
           src={require("assets/img/square6.png")}
         />
-        <h2 data-aos="fade-up" className="title text-center text-white">
+        <h2 data-aos="fade-up" className="title text-center text-dark">
           Equipe
         </h2>
         <Row>
           <Col md="12">
+            
             <div className="text-center mb-2" data-aos="fade-up-right">
               <img
                 alt="..."
@@ -52,33 +53,63 @@ export default function Habilidades() {
             </div>
           </Col>
         </Row>
+        <img
+                alt="..."
+                style={{
+                  position: "absolute",
+                  opacity: "0.4",
+                  top: "1000px",
+                  left: "-5px",
+                }}
+                src={require("assets/img/square5.png")}
+              />
         <Row className="cv">
           <Col md="6 mt-5">
-            <h3 class="text-white" data-aos="fade-up">
+            <h3 class="title text-dark" data-aos="fade-up">
               Educação
             </h3>
-            <div class="cv-item" data-aos="fade-up">
-              <h4>Educação Física</h4>
-              <h5>2018-2022</h5>
+            <div class="cv-item text-dark" data-aos="fade-up">
+              <h4 className="text-dark">Educação Física</h4>
+              <h5 className="text-dark">2018-2022</h5>
+              <img
+                alt="..."
+                style={{
+                  position: "absolute",
+                  opacity: "0.4",
+                  top: "500px",
+                  left: "-5px",
+                }}
+                src={require("assets/img/square5.png")}
+              />
               <p>
                 <em>Universidade Cruzerio do Sul</em>
               </p>
             </div>
-            <div class="cv-item" data-aos="fade-up">
-              <h4>Pedagogia</h4>
-              <h5>2023-2024</h5>
+            <div class="cv-item text-dark" data-aos="fade-up">
+              <h4 className="text-dark">Pedagogia</h4>
+              <h5 className="text-dark">2023-2024</h5>
               <p>
                 <em>Universidade Cruzerio do Sul</em>
               </p>
             </div>
           </Col>
-          <Col md="6 mt-5">
-            <h3 class="text-white" data-aos="fade-up">
+          <Col md="6 mt-5 text-dark">
+            <h3 class="title text-dark" data-aos="fade-up">
               Profissional
             </h3>
-            <div class="cv-item" data-aos="fade-up">
-              <h4>Professora de Ballet e Coordenadora pedagógica</h4>
-              <h5>2016 - Atualmente</h5>
+            <div class="cv-item text-dark" data-aos="fade-up">
+            <img
+                alt="..."
+                style={{
+                  position: "absolute",
+                  opacity: "0.4",
+                  top: "500px",
+                  left: "-5px",
+                }}
+                src={require("assets/img/square5.png")}
+              />
+              <h4 className="text-dark">Professora de Ballet e Coordenadora pedagógica</h4>
+              <h5 className="text-dark">2016 - Atualmente</h5>
               <p>
                 <em>Associação Barbara Cristina</em>
               </p>
@@ -88,9 +119,9 @@ export default function Habilidades() {
                 a arte e o lazer na periferia de Guarulhos
               </p>
             </div>
-            <div class="cv-item" data-aos="fade-up">
-              <h4>Professora de Educação Física e Professora de ballet</h4>
-              <h5>2021 - Atualmente</h5>
+            <div class="cv-item text-dark" data-aos="fade-up">
+              <h4 className="text-dark">Professora de Educação Física e Professora de ballet</h4>
+              <h5 className="text-dark">2021 - Atualmente</h5>
               <p>
                 <em>Colégio Florescer </em>
               </p>

@@ -6,7 +6,7 @@ import { Container, Row, Col } from "reactstrap";
 export default function Sobre() {
 
   return (
-    <div className="section secao-sobremim" id="sobre-mim">
+    <div className="section fundo-dois" id="sobre-mim">
       <Container>
         <h2 data-aos="fade-up" className="text-center title text-white">
           Sobre nós

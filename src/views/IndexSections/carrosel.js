@@ -153,10 +153,11 @@ export default function Curriculo() {
   ];
 
   return (
-    <div className="section cv" id="curriculo">
+    <div className="section fundo-dois" id="curriculo">
+      
       <Container>
         <h2 data-aos="fade-up" className="text-center title text-white">
-          Aulas
+          Galeria
         </h2>
         <Row>
           <Col data-aos="fade-up" md="12">
