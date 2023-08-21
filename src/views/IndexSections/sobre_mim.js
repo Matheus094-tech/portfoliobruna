@@ -140,16 +140,6 @@ m82 -1390 l38 -116 -22 -57 c-11 -31 -32 -73 -45 -95 l-23 -38 -6 58 c-16 152
             <div
               data-aos="fade-up"
               style={{ textAlign: "center", color: "white" }}>
-              <img
-                alt="..."
-                style={{
-                  position: "absolute",
-                  opacity: "0.4",
-                  top: "500px",
-                  left: "-5px",
-                }}
-                src={require("assets/img/square5.png")}
-              />
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
