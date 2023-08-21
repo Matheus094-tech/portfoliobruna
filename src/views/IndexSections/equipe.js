@@ -13,16 +13,6 @@ export default function Habilidades() {
   return (
     <div className="section fundo-um" id="equipe">
       <Container>
-        <img
-          alt="..."
-          style={{
-            position: "absolute",
-            opacity: "0.4",
-            top: "500px",
-            left: "-5px",
-          }}
-          src={require("assets/img/square6.png")}
-        />
         <h2 data-aos="fade-up" className="title text-center text-dark">
           Equipe
         </h2>
@@ -53,16 +43,6 @@ export default function Habilidades() {
             </div>
           </Col>
         </Row>
-        <img
-                alt="..."
-                style={{
-                  position: "absolute",
-                  opacity: "0.4",
-                  top: "1000px",
-                  left: "-5px",
-                }}
-                src={require("assets/img/square5.png")}
-              />
         <Row className="cv">
           <Col md="6 mt-5">
             <h3 class="title text-dark" data-aos="fade-up">
@@ -71,16 +51,6 @@ export default function Habilidades() {
             <div class="cv-item text-dark" data-aos="fade-up">
               <h4 className="text-dark">Educação Física</h4>
               <h5 className="text-dark">2018-2022</h5>
-              <img
-                alt="..."
-                style={{
-                  position: "absolute",
-                  opacity: "0.4",
-                  top: "500px",
-                  left: "-5px",
-                }}
-                src={require("assets/img/square5.png")}
-              />
               <p>
                 <em>Universidade Cruzerio do Sul</em>
               </p>
@@ -98,16 +68,6 @@ export default function Habilidades() {
               Profissional
             </h3>
             <div class="cv-item text-dark" data-aos="fade-up">
-            <img
-                alt="..."
-                style={{
-                  position: "absolute",
-                  opacity: "0.4",
-                  top: "500px",
-                  left: "-5px",
-                }}
-                src={require("assets/img/square5.png")}
-              />
               <h4 className="text-dark">Professora de Ballet e Coordenadora pedagógica</h4>
               <h5 className="text-dark">2016 - Atualmente</h5>
               <p>

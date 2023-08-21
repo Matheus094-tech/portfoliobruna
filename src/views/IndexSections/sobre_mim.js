@@ -6,7 +6,7 @@ import { Container, Row, Col } from "reactstrap";
 export default function Sobre() {
 
   return (
-    <div className="section fundo-dois" id="sobre-mim">
+    <div className="section section-sobre fundo-dois" id="sobre-mim">
       <Container>
         <h2 data-aos="fade-up" className="text-center title text-white">
           Sobre nós
@@ -16,16 +16,6 @@ export default function Sobre() {
             <div
               data-aos="fade-up"
               style={{ textAlign: "center", color: "white" }}>
-              <img
-                alt="..."
-                style={{
-                  position: "absolute",
-                  opacity: "0.4",
-                  top: "500px",
-                  left: "-5px",
-                }}
-                src={require("assets/img/square6.png")}
-              />
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +25,7 @@ export default function Sobre() {
                 preserveAspectRatio="xMidYMid meet">
                 <g
                   transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                  fill="#000000"
+                  fill="#585350"
                   stroke="none">
                   <path
                     d="M1686 5099 c-40 -31 -34 -70 35 -231 83 -193 202 -554 236 -713 22
@@ -90,7 +80,7 @@ l7 -59 -43 39 c-182 163 -957 898 -952 903 7 8 782 130 809 128 16 -2 23 -18
                 preserveAspectRatio="xMidYMid meet">
                 <g
                   transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                  fill="#000000"
+                  fill="#585350"
                   stroke="none">
                   <path
                     d="M2343 5051 c-54 -39 -193 -192 -281 -309 -121 -162 -212 -366 -212
@@ -169,7 +159,7 @@ m82 -1390 l38 -116 -22 -57 c-11 -31 -32 -73 -45 -95 l-23 -38 -6 58 c-16 152
                 preserveAspectRatio="xMidYMid meet">
                 <g
                   transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                  fill="#000000"
+                  fill="#585350"
                   stroke="none">
                   <path
                     d="M1078 4475 c-57 -32 -83 -129 -82 -305 1 -135 17 -221 57 -300 13
@@ -250,7 +240,7 @@ c40 -43 118 -93 181 -115 l51 -18 -18 -48 c-45 -118 -150 -233 -241 -263 -88
                 preserveAspectRatio="xMidYMid meet">
                 <g
                   transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                  fill="#000000"
+                  fill="#585350"
                   stroke="none">
                   <path
                     d="M2054 5105 c-86 -19 -155 -56 -222 -123 -224 -218 -176 -577 98 -739

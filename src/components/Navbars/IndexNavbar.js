@@ -40,17 +40,17 @@ export default function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
             <span className="navBarTexto">
-              Bruna Ferraz
+              Bruna Ferraz {"  "}
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
+                width="15"
+                height="15"
                 viewBox="0 0 512.000000 512.000000"
                 preserveAspectRatio="xMidYMid meet">
                 <g
                   transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                  fill="#000000"
+                  fill="#d7a46a"
                   stroke="none">
                   <path
                     d="M1483 5110 c-38 -15 -51 -51 -78 -210 -52 -308 -96 -428 -234 -638
