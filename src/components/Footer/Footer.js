@@ -2,19 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
 import {
-  Button,
-  NavItem,
-  NavLink,
-  Nav,
   Container,
   Row,
   Col,
-  UncontrolledTooltip,
 } from "reactstrap";
 
 export default function Footer() {
   return (
-    <footer className="footer-bruna">
+    <footer>
       <Container>
         <Row style={{ placeContent: "center" }}>
           <Col md="3 text-center">
