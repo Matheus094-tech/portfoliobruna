@@ -44,7 +44,7 @@ export default function Habilidades() {
         </Row>
         <Row style={{ color: "#f0c436" }} className="cv">
           <Col md="6 mt-5">
-            <h3 style={{ color: "#f0c436" }} class="title " style={{ color: "#f0c436" }} data-aos="fade-up">
+            <h3 style={{ color: "#f0c436" }} class="title " data-aos="fade-up">
               Educação
             </h3>
             <div class="cv-item " style={{ color: "#f0c436" }} data-aos="fade-up">

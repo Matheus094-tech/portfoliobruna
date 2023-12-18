@@ -156,7 +156,7 @@ export default function Curriculo() {
     <div className="section fundo-dois" id="curriculo">
       
       <Container>
-        <h2 data-aos="fade-up" className="text-center title text-white">
+        <h2 style={{ color: "#f0c436" }} data-aos="fade-up" className="text-center title">
           Galeria
         </h2>
         <Row>
