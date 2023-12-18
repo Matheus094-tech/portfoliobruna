@@ -78,7 +78,7 @@ export default function Habilidades() {
             <div class="cv-item mt-5" style={{ color: "#fffda8" }} data-aos="fade-up">
               <h4 className="" style={{ color: "#fffda8" }}>Psicomotricidade (Baby-Fraldinha)</h4>
               <img
-                alt="Baby Class"
+                alt="Baby Fraldinha"
                 height={400}
                 width={400}
                 className="img-fluid"
@@ -86,6 +86,20 @@ export default function Habilidades() {
               />
               <p className="mt-3">
                 A Psicomotricidade é integrada às nossas aulas para promover o desenvolvimento físico, cognitivo e emocional. Adequada para desenvolver e preparar crianças apartir de 1 ano e 8 meses.
+              </p>
+            </div>
+            <div class="cv-item mt-5" style={{ color: "#fffda8" }} data-aos="fade-up">
+              <h4 className="" style={{ color: "#fffda8" }}>Ballet infantil</h4>
+              <img
+                alt="Jazz Dance"
+                height={400}
+                width={400}
+                className="img-fluid"
+                src={require("assets/img/infantil.jpeg")}
+              />
+              <p className="mt-3">
+                O Ballet infantil é uma introdução encantadora à dança para os mais jovens, explorando movimentos delicados e promovendo desenvolvimento físico, coordenação motora e autoconfiança.
+                As aulas criam uma base sólida, nutrindo a criatividade e permitindo que as crianças descubram a magia da dança clássica.
               </p>
             </div>
           </Col>
