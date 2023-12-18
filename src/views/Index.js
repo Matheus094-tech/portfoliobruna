@@ -7,8 +7,8 @@ import Footer from "components/Footer/Footer.js";
 
 // sections for this page/view
 import Sobre from "views/IndexSections/sobre_mim";
-import Carrosel from "views/IndexSections/carrosel.js";
 import Equipe from "views/IndexSections/equipe.js";
+import Contato from "views/IndexSections/contato"
 
 export default function Index() {
   React.useEffect(() => {
@@ -26,7 +26,7 @@ export default function Index() {
         <div className="main">
           <Sobre />
           <Equipe />
-          <Carrosel />
+          <Contato />
         </div>
         <Footer />
       </div>

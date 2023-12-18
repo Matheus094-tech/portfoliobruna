@@ -13,76 +13,68 @@ export default function Habilidades() {
   return (
     <div className="section fundo-um" id="equipe">
       <Container>
-        <h2 style={{ color: "#fffda8" }}  data-aos="fade-up" className="title text-center">
-          Equipe
-        </h2>
-        <Row>
-          <Col md="12">
-            <div className="text-center mb-2" data-aos="fade-up-right">
-              <img
-                alt="..."
-                className="img-fluid rounded shadow"
-                src={require("assets/img/bruna.jpg")}
-                style={{ width: "300px", height: "350px", objectFit: "cover" }}
-              />
+        <Row style={{ color: "#fffda8" }} className="cv">
+          <h3 style={{ color: "#fffda8" }} class="title " data-aos="fade-up">
+            Modalidades
+          </h3>
+          <p>Conheça nossas modalidades:</p>
+          <Col md="6 mt-3">
+            <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
+              <h4 className="" style={{ color: "#fffda8" }}>Ballet de formação</h4>
+              <p>
+                Nossas aulas de Ballet de Formação são projetadas para construir uma base sólida nas técnicas clássicas.
+                Ideal para crianças e adolescentes que desejam explorar a elegância e a disciplina do ballet.
+              </p>
             </div>
-            <div style={{ color: "#fffda8" }} className="text-center" data-aos="fade-up-right">
-              <span className="nomeEquipe mt-5">Bruna Ferraz</span>
-              <p className="mt-2 textoSobre">
-                Licenciada em Educação Física e pedagogia, formada em ballet e
-                jazz. Em processo para a Certificação de Professores do Método
-                Vaganova pela Escola Bolshoi, em 2016 selecionada como solista
-                pelo Festival Internacional Tanzolymp Berlim onde realizou
-                cursos de ballet e jazz com grandes nomes da dança, premiada em
-                diversos Festivais Nacionais, Regionais e Estaduais como
-                bailarina. Bem avaliada e premiada também em festivais
-                competitivos como professora e coreografa. Professora há 10 anos
-                com grande experiencia na área infantil e infanto juvenil.
+            <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
+              <h4 className="" style={{ color: "#fffda8" }}>Jazz Dance</h4>
+              <p>
+                A energia e a vibração do Jazz Dance são exploradas em nossas aulas dinâmicas. Indicado para adolescentes
+                e adultos que buscam liberdade de movimento e autoexpressão.
+              </p>
+            </div>
+            <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
+              <h4 className="" style={{ color: "#fffda8" }}>Ballet adulto</h4>
+              <p>
+                Nunca é tarde para começar a dançar! O Ballet Adulto oferece uma experiência enriquecedora,
+                promovendo flexibilidade, postura e bem-estar físico e menta.
+              </p>
+            </div>
+          </Col>
+          <Col md="6 mt-3" style={{ color: "#fffda8" }}>
+            <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
+              <h4 className="" style={{ color: "#fffda8" }}>Baby Class</h4>
+              <p>
+                Para os nossos bailarinos(as) mais jovens, o Baby Class é uma introdução
+                lúdica ao mundo da dança. Focada no desenvolvimento motor e na expressão criativa.
+              </p>
+            </div>
+            <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
+              <h4 className="" style={{ color: "#fffda8" }}>Psicomotricidade (Baby-Fraldinha)</h4>
+              <p>
+                A Psicomotricidade é integrada às nossas aulas para promover o desenvolvimento físico, cognitivo e emocional. Adequada para desenvolver e preparar crianças apartir de 1 ano e 6 meses.
               </p>
             </div>
           </Col>
         </Row>
-        <Row style={{ color: "#fffda8" }} className="cv">
-          <Col md="6 mt-5">
-            <h3 style={{ color: "#fffda8" }} class="title " data-aos="fade-up">
-              Educação
-            </h3>
-            <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
-              <h4 className="" style={{ color: "#fffda8" }}>Educação Física</h4>
-              <h5 className="" style={{ color: "#fffda8" }}>2018-2022</h5>
-              <p>
-                <em>Universidade Cruzerio do Sul</em>
-              </p>
-            </div>
-            <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
-              <h4 className="" style={{ color: "#fffda8" }}>Pedagogia</h4>
-              <h5 className="" style={{ color: "#fffda8" }}>2023-2024</h5>
-              <p>
-                <em>Universidade Cruzerio do Sul</em>
+        <h2 style={{ color: "#fffda8" }} data-aos="fade-up" className="title text-center">
+          Equipe
+        </h2>
+        <Row>
+          <Col md="6">
+            <div style={{ color: "#fffda8" }} className="text-center" data-aos="fade-up-right">
+              <span className="nomeEquipe mt-5">Equipe de professores:</span>
+              <p className="mt-2 textoSobre">
+                Contamos com uma equipe de professores dedicados,
+                comprometidos em nutrir o talento e o potencial de cada aluno. Com experiência e paixão, eles guiam nossos dançarinos em cada jornada de aprendizado.
               </p>
             </div>
           </Col>
-          <Col md="6 mt-5 " style={{ color: "#fffda8" }}>
-            <h3 class="title " style={{ color: "#fffda8" }} data-aos="fade-up">
-              Profissional
-            </h3>
-            <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
-              <h4 className="" style={{ color: "#fffda8" }}>Professora de Ballet e Coordenadora pedagógica</h4>
-              <h5 className="" style={{ color: "#fffda8" }}>2016 - Atualmente</h5>
-              <p>
-                <em>Associação Barbara Cristina</em>
-              </p>
-              <p>
-                A Associação Barbaria Cristina é um projeto social onde atende
-                mais de 400 crianças de 4 a 6 anos de baixa renda, incentivando
-                a arte e o lazer na periferia de Guarulhos
-              </p>
-            </div>
-            <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
-              <h4 className="" style={{ color: "#fffda8" }}>Professora de Educação Física e Professora de ballet</h4>
-              <h5 className="" style={{ color: "#fffda8" }}>2021 - Atualmente</h5>
-              <p>
-                <em>Colégio Florescer </em>
+          <Col md="6">
+            <div style={{ color: "#fffda8" }} className="text-center" data-aos="fade-up-right">
+              <span className="nomeEquipe mt-5">Eventos e Espetáculos:</span>
+              <p className="mt-2 textoSobre">
+                Ao longo do ano, preparamos apresentações encantadoras, oportunidades para nossos alunos brilharem no palco e compartilharem sua paixão com amigos e familiares.
               </p>
             </div>
           </Col>

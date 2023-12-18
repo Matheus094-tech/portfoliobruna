@@ -61,9 +61,10 @@ l7 -59 -43 39 c-182 163 -957 898 -952 903 7 8 782 130 809 128 16 -2 23 -18
               </svg>
             </div>
             <div className="mt-5 textoSobre">
-              <p data-aos="fade-up" style={{  color: "#fffda8" }}>
-                Apresentar um repertório de formação pelo mais alto nível e
-                excelência no ensino da dança.
+              <p data-aos="fade-up" style={{ color: "#fffda8" }}>
+                Somos o Studio de Dança Bruna Ferraz, um espaço dedicado à arte da dança, onde cada passo conta uma história e cada movimento expressa emoções.
+                Fundada em 2024, nossa escola é mais do que um local de aprendizado; é um lar para aqueles que encontram alegria na dança.
+
               </p>
             </div>
           </Col>
@@ -131,8 +132,8 @@ m82 -1390 l38 -116 -22 -57 c-11 -31 -32 -73 -45 -95 l-23 -38 -6 58 c-16 152
               </svg>
             </div>
             <div className="mt-5 textoSobre">
-            <p data-aos="fade-up" style={{  color: "#fffda8" }}>
-                Ser referência de ensino de dança na Cidade de Guarulhos.
+              <p data-aos="fade-up" style={{ color: "#fffda8" }}>
+                Nossa Missão: Inspirar, educar e celebrar a arte da dança, cultivando um ambiente acolhedor e inspirador para todos os apaixonados por esse universo encantador.
               </p>
             </div>
           </Col>
@@ -210,10 +211,8 @@ c40 -43 118 -93 181 -115 l51 -18 -18 -48 c-45 -118 -150 -233 -241 -263 -88
               </svg>
             </div>
             <div className="mt-5 textoSobre">
-            <p data-aos="fade-up" style={{  color: "#fffda8" }}>
-                Ética profissional, comprometimento, transparência, inovação,
-                acolhimento, transformação, trabalho em equipe, igualdade,
-                inclusão respeito e amor.
+              <p data-aos="fade-up" style={{ color: "#fffda8" }}>
+                Variedade de Estilos: Oferecemos aulas de ballet, jazz e psicomotricidade para crianças, adolescentes e adultos. Seja você um iniciante ou dançarino experiente, há um lugar para você em nossa família.
               </p>
             </div>
           </Col>
@@ -272,16 +271,8 @@ m-2197 -65 c81 -308 405 -490 709 -399 183 56 346 228 389 411 13 59 13 58 20
               </svg>
             </div>
             <div className="mt-5 textoSobre">
-            <p data-aos="fade-up" style={{  color: "#fffda8" }}>
-                Trazendo sua paixão e valorização pela arte e da dança, ajudando
-                pessoas a descobrirem a dança que existe dentro de si sem
-                paradigmas. Através de nossas aulas queremos transmitir valores
-                e proporcionar benefícios físicos e emocionais aos nossos alunos
-                oferecendo nossas aulas de baby fraldinha para alunos apartir de
-                1 ano e 6 meses, balé preparatório, jazz dance e ballet adulto.
-                Sempre oferecendo, aulas temáticas, lúdicas e pedagógicas para
-                que nossos alunos possam se desenvolver de forma integral
-                através da dança.
+              <p data-aos="fade-up" style={{ color: "#fffda8" }}>
+                Ambiente Acolhedor: Nossa escola é mais do que um local de treino; é um lar onde amizades florescem, sonhos ganham vida e cada conquista é celebrada. Aqui, cultivamos uma comunidade que compartilha o amor pela dança.
               </p>
             </div>
           </Col>

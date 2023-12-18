@@ -26,7 +26,7 @@ export default function Footer() {
                 <i class="lab la-whatsapp"></i>
               </a>
               <a
-                href="https://www.instagram.com/profbruferraz/"
+                href="https://www.instagram.com/studiobrunaferraz/"
                 target="_blank"
                 class="iconeFooter">
                 <i class="lab la-instagram"></i>

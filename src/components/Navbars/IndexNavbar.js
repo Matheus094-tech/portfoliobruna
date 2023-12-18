@@ -127,7 +127,7 @@ c16 -231 14 -654 -4 -842 -9 -87 -26 -225 -40 -305 -46 -272 -59 -307 -126
               </NavLink>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/profbruferraz/"
+                href="https://www.instagram.com/studiobrunaferraz/"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Github">
@@ -155,7 +155,7 @@ c16 -231 14 -654 -4 -842 -9 -87 -26 -225 -40 -305 -46 -272 -59 -307 -126
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/profbruferraz/"
+                href="https://www.instagram.com/studiobrunaferraz/"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Github">
