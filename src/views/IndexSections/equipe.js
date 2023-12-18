@@ -68,7 +68,7 @@ export default function Habilidades() {
                 height={400}
                 width={400}
                 className="img-fluid"
-                src={require("assets/img/infantil.jpeg")}
+                src={require("assets/img/baby.jpeg")}
               />
               <p className="mt-3">
                 Para os nossos bailarinos(as) mais jovens, o Baby Class é uma introdução
