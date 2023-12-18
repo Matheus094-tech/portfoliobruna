@@ -2,7 +2,7 @@
   font-weight: 400;
   font-style: normal;
   font-family: "Parisienne";
-  color: #f0c436;
+  color: #fffda8;
   font-size: 65px;
   line-height: 1;
   text-align: center;
@@ -10,7 +10,7 @@
 
 .navBarTexto {
   font-weight: 500 !important;
-  color: #f0c436;
+  color: #fffda8;
 }
 
 .textoSobre {
@@ -18,19 +18,19 @@
   margin-bottom: 50px;
   text-align: center;
   font-size: 18px;
-  color: #f0c436!important;
+  color: #fffda8!important;
 }
 
 
 p {
-  color: #f0c436;
+  color: #fffda8;
 }
 
 .profissao {
   font-weight: 400;
   font-style: normal;
   font-weight: bold;
-  color: #f0c436;
+  color: #fffda8;
   font-size: 26px;
   line-height: 1;
   letter-spacing: 1px;
@@ -42,7 +42,7 @@ p {
   letter-spacing: 0px;
   font-weight: 400;
   font-style: normal;
-  color: #f0c436;
+  color: #fffda8;
   font-size: 40px;
   line-height: 1;
   letter-spacing: 1px;
@@ -80,7 +80,7 @@ body {
   font-weight: bold;
   font-size: 22px;
   font-family: "Gilroy-Bold";
-  color: #f0c436;
+  color: #fffda8;
 }
 
 .carousel-item img {
@@ -96,7 +96,7 @@ body {
 
 .iconeFooter {
   font-size: 50px;
-  color: #f0c436;
+  color: #fffda8;
 }
 
 .iconeFooter:hover {
@@ -106,13 +106,13 @@ body {
 .cv .cv-title {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #f0c436;
+  color: #fffda8;
 }
 
 .cv .cv-item h4 {
   line-height: 18px;
   font-weight: 550;
-  color: #f0c436;
+  color: #fffda8;
   margin-bottom: 10px;
 }
 
@@ -120,7 +120,7 @@ body {
 .cv .cv-item h5 {
   display: inline-block;
   margin-bottom: 10px;
-  color: #f0c436;
+  color: #fffda8;
 }
 
 
