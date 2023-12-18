@@ -28,7 +28,7 @@ export default function Habilidades() {
                 className="img-fluid"
                 src={require("assets/img/formacao.jpeg")}
               />
-            <p className="mt-3">
+              <p className="mt-3">
                 Nossas aulas de Ballet de Formação são projetadas para construir uma base sólida nas técnicas clássicas.
                 Ideal para crianças e adolescentes que desejam explorar a elegância e a disciplina do ballet.
               </p>
@@ -42,7 +42,7 @@ export default function Habilidades() {
                 className="img-fluid"
                 src={require("assets/img/jazz.jpeg")}
               />
-           <p className="mt-3">
+              <p className="mt-3">
                 A energia e a vibração do Jazz Dance são exploradas em nossas aulas dinâmicas. Indicado para adolescentes
                 e adultos que buscam liberdade de movimento e autoexpressão.
               </p>
@@ -56,7 +56,7 @@ export default function Habilidades() {
                 className="img-fluid"
                 src={require("assets/img/adulto.jpeg")}
               />
-       <p className="mt-3">
+              <p className="mt-3">
                 Nunca é tarde para começar a dançar! O Ballet Adulto oferece uma experiência enriquecedora,
                 promovendo flexibilidade, postura e bem-estar físico e menta.
               </p>
@@ -84,8 +84,8 @@ export default function Habilidades() {
                 className="img-fluid"
                 src={require("assets/img/fraldinha.jpeg")}
               />
-           <p className="mt-3">
-                A Psicomotricidade é integrada às nossas aulas para promover o desenvolvimento físico, cognitivo e emocional. Adequada para desenvolver e preparar crianças apartir de 1 ano e 6 meses.
+              <p className="mt-3">
+                A Psicomotricidade é integrada às nossas aulas para promover o desenvolvimento físico, cognitivo e emocional. Adequada para desenvolver e preparar crianças apartir de 1 ano e 8 meses.
               </p>
             </div>
           </Col>
