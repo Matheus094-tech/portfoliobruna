@@ -2,7 +2,7 @@
   font-weight: 400;
   font-style: normal;
   font-family: "Parisienne";
-  color: #d7a46a;
+  color: #f2da6d;
   font-size: 65px;
   line-height: 1;
   text-align: center;
@@ -18,19 +18,20 @@
   margin-bottom: 50px;
   text-align: center;
   font-size: 18px;
+  color: #f2da6d!important;
 }
 
 
 
 p {
-  color: black;
+  color: #f2da6d;
 }
 
 .profissao {
   font-weight: 400;
   font-style: normal;
   font-weight: bold;
-  color: #d7a46a;
+  color: #f2da6d;
   font-size: 26px;
   line-height: 1;
   letter-spacing: 1px;
@@ -42,7 +43,7 @@ p {
   letter-spacing: 0px;
   font-weight: 400;
   font-style: normal;
-  color: #8c8c8c;
+  color: #f2da6d;
   font-size: 40px;
   line-height: 1;
   letter-spacing: 1px;
@@ -64,15 +65,15 @@ p {
 }
 
 body {
-  background-color: #f5ece5;
+  background-color: #0c102d;
 }
 
 .fundo-um{
-  background-color: #f5ece5!important;
+  background-color: #0c102d!important;
 }
 
 .fundo-dois{
-  background-color: #ebe0d6!important;
+  background-color: #0c102d!important;
 }
 
 .nomeEquipe {
@@ -80,7 +81,7 @@ body {
   font-weight: bold;
   font-size: 22px;
   font-family: "Gilroy-Bold";
-  color: #585350;
+  color: #f2da6d;
 }
 
 .carousel-item img {
@@ -90,13 +91,13 @@ body {
 .footer-bruna {
   padding: 50px 0;
   border-top: 2px solid white;
-  background: #decfc7 !important;
+  background: #0c102d !important;
   text-align: center;
 }
 
 .iconeFooter {
   font-size: 50px;
-  color: white;
+  color: #f2da6d;
 }
 
 .iconeFooter:hover {
@@ -106,13 +107,13 @@ body {
 .cv .cv-title {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: white;
+  color: #f2da6d;
 }
 
 .cv .cv-item h4 {
   line-height: 18px;
   font-weight: 550;
-  color: white;
+  color: #f2da6d;
   margin-bottom: 10px;
 }
 
@@ -120,7 +121,7 @@ body {
 .cv .cv-item h5 {
   display: inline-block;
   margin-bottom: 10px;
-  color: white;
+  color: #f2da6d;
 }
 
 

@@ -13,12 +13,11 @@ export default function Habilidades() {
   return (
     <div className="section fundo-um" id="equipe">
       <Container>
-        <h2 data-aos="fade-up" className="title text-center text-dark">
+        <h2 style={{ color: "#f2da6d" }}  data-aos="fade-up" className="title text-center">
           Equipe
         </h2>
         <Row>
           <Col md="12">
-            
             <div className="text-center mb-2" data-aos="fade-up-right">
               <img
                 alt="..."
@@ -27,7 +26,7 @@ export default function Habilidades() {
                 style={{ width: "300px", height: "350px", objectFit: "cover" }}
               />
             </div>
-            <div className="text-center" data-aos="fade-up-right">
+            <div style={{ color: "#f2da6d" }} className="text-center" data-aos="fade-up-right">
               <span className="nomeEquipe mt-5">Bruna Ferraz</span>
               <p className="mt-2 textoSobre">
                 Licenciada em Educação Física e pedagogia, formada em ballet e
@@ -43,33 +42,33 @@ export default function Habilidades() {
             </div>
           </Col>
         </Row>
-        <Row className="cv">
+        <Row style={{ color: "#f2da6d" }} className="cv">
           <Col md="6 mt-5">
-            <h3 class="title text-dark" data-aos="fade-up">
+            <h3 style={{ color: "#f2da6d" }} class="title " style={{ color: "#f2da6d" }} data-aos="fade-up">
               Educação
             </h3>
-            <div class="cv-item text-dark" data-aos="fade-up">
-              <h4 className="text-dark">Educação Física</h4>
-              <h5 className="text-dark">2018-2022</h5>
+            <div class="cv-item " style={{ color: "#f2da6d" }} data-aos="fade-up">
+              <h4 className="" style={{ color: "#f2da6d" }}>Educação Física</h4>
+              <h5 className="" style={{ color: "#f2da6d" }}>2018-2022</h5>
               <p>
                 <em>Universidade Cruzerio do Sul</em>
               </p>
             </div>
-            <div class="cv-item text-dark" data-aos="fade-up">
-              <h4 className="text-dark">Pedagogia</h4>
-              <h5 className="text-dark">2023-2024</h5>
+            <div class="cv-item " style={{ color: "#f2da6d" }} data-aos="fade-up">
+              <h4 className="" style={{ color: "#f2da6d" }}>Pedagogia</h4>
+              <h5 className="" style={{ color: "#f2da6d" }}>2023-2024</h5>
               <p>
                 <em>Universidade Cruzerio do Sul</em>
               </p>
             </div>
           </Col>
-          <Col md="6 mt-5 text-dark">
-            <h3 class="title text-dark" data-aos="fade-up">
+          <Col md="6 mt-5 " style={{ color: "#f2da6d" }}>
+            <h3 class="title " style={{ color: "#f2da6d" }} data-aos="fade-up">
               Profissional
             </h3>
-            <div class="cv-item text-dark" data-aos="fade-up">
-              <h4 className="text-dark">Professora de Ballet e Coordenadora pedagógica</h4>
-              <h5 className="text-dark">2016 - Atualmente</h5>
+            <div class="cv-item " style={{ color: "#f2da6d" }} data-aos="fade-up">
+              <h4 className="" style={{ color: "#f2da6d" }}>Professora de Ballet e Coordenadora pedagógica</h4>
+              <h5 className="" style={{ color: "#f2da6d" }}>2016 - Atualmente</h5>
               <p>
                 <em>Associação Barbara Cristina</em>
               </p>
@@ -79,9 +78,9 @@ export default function Habilidades() {
                 a arte e o lazer na periferia de Guarulhos
               </p>
             </div>
-            <div class="cv-item text-dark" data-aos="fade-up">
-              <h4 className="text-dark">Professora de Educação Física e Professora de ballet</h4>
-              <h5 className="text-dark">2021 - Atualmente</h5>
+            <div class="cv-item " style={{ color: "#f2da6d" }} data-aos="fade-up">
+              <h4 className="" style={{ color: "#f2da6d" }}>Professora de Educação Física e Professora de ballet</h4>
+              <h5 className="" style={{ color: "#f2da6d" }}>2021 - Atualmente</h5>
               <p>
                 <em>Colégio Florescer </em>
               </p>

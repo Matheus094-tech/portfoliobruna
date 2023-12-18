@@ -8,14 +8,14 @@ export default function Sobre() {
   return (
     <div className="section section-sobre fundo-dois" id="sobre-mim">
       <Container>
-        <h2 data-aos="fade-up" className="text-center title text-white">
+        <h2 style={{ color: "#f2da6d" }} data-aos="fade-up" className="text-center title">
           Sobre nós
         </h2>
         <Row>
           <Col md="6">
             <div
               data-aos="fade-up"
-              style={{ textAlign: "center", color: "white" }}>
+              style={{ textAlign: "center", color: "#f2da6d" }}>
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ l7 -59 -43 39 c-182 163 -957 898 -952 903 7 8 782 130 809 128 16 -2 23 -18
               </svg>
             </div>
             <div className="mt-5 textoSobre">
-              <p data-aos="fade-up">
+              <p data-aos="fade-up" style={{  color: "#f2da6d" }}>
                 Apresentar um repertório de formação pelo mais alto nível e
                 excelência no ensino da dança.
               </p>
@@ -70,7 +70,7 @@ l7 -59 -43 39 c-182 163 -957 898 -952 903 7 8 782 130 809 128 16 -2 23 -18
           <Col md="6">
             <div
               data-aos="fade-up"
-              style={{ textAlign: "center", color: "white" }}>
+              style={{ textAlign: "center", color: "#f2da6d" }}>
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +131,7 @@ m82 -1390 l38 -116 -22 -57 c-11 -31 -32 -73 -45 -95 l-23 -38 -6 58 c-16 152
               </svg>
             </div>
             <div className="mt-5 textoSobre">
-              <p data-aos="fade-up">
+            <p data-aos="fade-up" style={{  color: "#f2da6d" }}>
                 Ser referência de ensino de dança na Cidade de Guarulhos.
               </p>
             </div>
@@ -139,7 +139,7 @@ m82 -1390 l38 -116 -22 -57 c-11 -31 -32 -73 -45 -95 l-23 -38 -6 58 c-16 152
           <Col md="6">
             <div
               data-aos="fade-up"
-              style={{ textAlign: "center", color: "white" }}>
+              style={{ textAlign: "center", color: "#f2da6d" }}>
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -210,7 +210,7 @@ c40 -43 118 -93 181 -115 l51 -18 -18 -48 c-45 -118 -150 -233 -241 -263 -88
               </svg>
             </div>
             <div className="mt-5 textoSobre">
-              <p data-aos="fade-up">
+            <p data-aos="fade-up" style={{  color: "#f2da6d" }}>
                 Ética profissional, comprometimento, transparência, inovação,
                 acolhimento, transformação, trabalho em equipe, igualdade,
                 inclusão respeito e amor.
@@ -220,7 +220,7 @@ c40 -43 118 -93 181 -115 l51 -18 -18 -48 c-45 -118 -150 -233 -241 -263 -88
           <Col md="6">
             <div
               data-aos="fade-up"
-              style={{ textAlign: "center", color: "white" }}>
+              style={{ textAlign: "center", color: "#f2da6d" }}>
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -272,7 +272,7 @@ m-2197 -65 c81 -308 405 -490 709 -399 183 56 346 228 389 411 13 59 13 58 20
               </svg>
             </div>
             <div className="mt-5 textoSobre">
-              <p data-aos="fade-up">
+            <p data-aos="fade-up" style={{  color: "#f2da6d" }}>
                 Trazendo sua paixão e valorização pela arte e da dança, ajudando
                 pessoas a descobrirem a dança que existe dentro de si sem
                 paradigmas. Através de nossas aulas queremos transmitir valores
