@@ -14,13 +14,13 @@ export default function Habilidades() {
     <div className="section fundo-um" id="equipe">
       <Container>
         <Row style={{ color: "#fffda8" }} className="cv">
-          <h3 style={{ color: "#fffda8" }} class="title " data-aos="fade-up">
+        <h2 style={{ color: "#fffda8" }} data-aos="fade-up" className="title text-center">
             Modalidades
-          </h3>
-          <p>Conheça nossas modalidades:</p>
+          </h2>
+          <p style={{fontSize: 22}}>Conheça nossas modalidades:</p>
           <Col md="6 mt-3">
             <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
-              <h4 className="" style={{ color: "#fffda8" }}>Ballet de formação</h4>
+              <h4 className="" style={{ color: "#fffda8" }}>🩰 Ballet de formação</h4>
               <p>
                 Nossas aulas de Ballet de Formação são projetadas para construir uma base sólida nas técnicas clássicas.
                 Ideal para crianças e adolescentes que desejam explorar a elegância e a disciplina do ballet.
