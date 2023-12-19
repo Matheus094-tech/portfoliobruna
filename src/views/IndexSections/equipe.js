@@ -105,7 +105,7 @@ export default function Habilidades() {
           </Col>
         </Row>
         <Row className="mt-5">
-          <Col md="6 text-center">
+          <Col data-aos="fade-up" md="6 text-center">
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
               width="70"
               height="70"
@@ -165,7 +165,7 @@ m-345 5 c-15 -61 -54 -204 -84 -320 -86 -320 -87 -330 -87 -771 l0 -384 -201
               </p>
             </div>
           </Col>
-          <Col md="6 text-center">
+          <Col data-aos="fade-up" md="6 text-center">
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
               width="70"
               height="70"
