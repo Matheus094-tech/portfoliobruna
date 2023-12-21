@@ -17,7 +17,7 @@ export default function Habilidades() {
           <h2 style={{ color: "#fffda8" }} data-aos="fade-up" className="title text-center">
             Modalidades
           </h2>
-          <p style={{ fontSize: 22 }}>Conheça nossas modalidades:</p>
+          <p data-aos="fade-up" style={{ fontSize: 22 }}>Conheça nossas modalidades:</p>
           <Col md="12 mt-3 text-center">
             <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
               <h4 className="" style={{ color: "#fffda8" }}>Ballet de formação</h4>
