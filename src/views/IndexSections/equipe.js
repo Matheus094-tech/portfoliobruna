@@ -78,8 +78,13 @@ export default function Habilidades() {
               </p>
             </div>
             <div class="cv-item mt-5" style={{ color: "#fffda8" }} data-aos="fade-up">
+<<<<<<< HEAD
               <h4 className="" style={{ color: "#fffda8" }}>Psicomotricidade (Baby-Fraldinha) - A partir dos 1 ano e 8 meses</h4>
               {/*  <img
+=======
+              <h4 className="" style={{ color: "#fffda8" }}>Psicomotricidade (Baby-Fraldinha)</h4>
+              <img
+>>>>>>> 141bb742e79d2eba6ca2469d61902bb3eecedeb0
                 alt="Baby Fraldinha"
                 height={400}
                 width={400}
@@ -91,14 +96,23 @@ export default function Habilidades() {
               </p>
             </div>
             <div class="cv-item mt-5" style={{ color: "#fffda8" }} data-aos="fade-up">
+<<<<<<< HEAD
               <h4 className="" style={{ color: "#fffda8" }}>Ballet infantil - A partir dos 6 anos</h4>
               {/*   <img
+=======
+              <h4 className="" style={{ color: "#fffda8" }}>Ballet infantil</h4>
+              <img
+>>>>>>> 141bb742e79d2eba6ca2469d61902bb3eecedeb0
                 alt="Jazz Dance"
                 height={400}
                 width={400}
                 className="img-fluid"
                 src={require("assets/img/infantil.jpeg")}
+<<<<<<< HEAD
               />  */}
+=======
+              />
+>>>>>>> 141bb742e79d2eba6ca2469d61902bb3eecedeb0
               <p className="mt-3">
                 O Ballet infantil é uma introdução encantadora à dança para os mais jovens, explorando movimentos delicados e promovendo desenvolvimento físico, coordenação motora e autoconfiança.
                 As aulas criam uma base sólida, nutrindo a criatividade e permitindo que as crianças descubram a magia da dança clássica.

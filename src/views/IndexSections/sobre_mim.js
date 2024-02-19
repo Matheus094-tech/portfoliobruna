@@ -14,9 +14,9 @@ export default function Sobre() {
         </h2>
         <Row>
           <Col md="12 mb-5" style={{ textAlign: "center" }}>
-         {/*   <video width="100%" height="100%" autoPlay controls >
+          <video width="100%" height="100%" autoPlay controls >
               <source src={require("../../assets/img/video_studio.mp4")} type="video/mp4" />
-            </video> */} 
+            </video> 
           </Col>
         </Row>
 
