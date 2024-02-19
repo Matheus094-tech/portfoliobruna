@@ -17,9 +17,8 @@ export default function Sobre() {
     
           <div  dangerouslySetInnerHTML={{ __html: `
         <video
-          loop
+          
           width="100%" height="100%"
-          muted
           autoplay
           playsinline
           controls
@@ -38,7 +37,9 @@ export default function Sobre() {
             <div
               data-aos="fade-up"
               style={{ textAlign: "center", color: "#fffda8" }}>
-              <video width="100%" height="100%" muted autoPlay controls >
+              <video   autoplay
+          playsinline
+          controls width="100%" height="100%" muted autoPlay loop >
                 <source src={require("../../assets/img/conteudo.mp4")} type="video/mp4" />
               </video>
               {/* 
