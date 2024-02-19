@@ -22,6 +22,7 @@ export default function Sobre() {
           loop
           playsinline
           controls
+          muted
           src="${require("../../assets/img/video_studio.mp4")}"
         />,
       ` }}></div>
