@@ -19,9 +19,7 @@ export default function Sobre() {
         <video
           width="100%" height="100%"
           autoplay
-          playsinline
           controls
-          
           src="${require("../../assets/img/video_studio.mp4")}"
         />,
       ` }}></div>
@@ -39,7 +37,6 @@ export default function Sobre() {
         <video
           width="100%" height="100%"
           autoplay
-          playsinline
           controls
           muted
           src="${require("../../assets/img/conteudo.mp4")}"
@@ -107,7 +104,6 @@ l7 -59 -43 39 c-182 163 -957 898 -952 903 7 8 782 130 809 128 16 -2 23 -18
         <video
           width="100%" height="100%"
           autoplay
-          playsinline
           controls
           muted
           src="${require("../../assets/img/conteudo_1.mp4")}"
@@ -188,7 +184,6 @@ m82 -1390 l38 -116 -22 -57 c-11 -31 -32 -73 -45 -95 l-23 -38 -6 58 c-16 152
         <video
           width="100%" height="100%"
           autoplay
-          playsinline
           controls
           muted
           src="${require("../../assets/img/conteudo_2.mp4")}"
@@ -278,7 +273,6 @@ c40 -43 118 -93 181 -115 l51 -18 -18 -48 c-45 -118 -150 -233 -241 -263 -88
         <video
           width="100%" height="100%"
           autoplay
-          playsinline
           controls
           muted
           src="${require("../../assets/img/conteudo_3.mp4")}"
