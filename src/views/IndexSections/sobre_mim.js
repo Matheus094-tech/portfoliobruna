@@ -3,6 +3,7 @@ import React from "react";
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
+
 export default function Sobre() {
 
   return (
@@ -12,11 +13,24 @@ export default function Sobre() {
           Sobre nós
         </h2>
         <Row>
+          <Col md="12 mb-5" style={{ textAlign: "center" }}>
+         {/*   <video width="100%" height="100%" autoPlay controls >
+              <source src={require("../../assets/img/video_studio.mp4")} type="video/mp4" />
+            </video> */} 
+          </Col>
+        </Row>
+
+
+        <Row>
           <Col md="6">
             <div
               data-aos="fade-up"
               style={{ textAlign: "center", color: "#fffda8" }}>
-              <svg
+              <video width="100%" height="100%" muted autoPlay controls >
+                <source src={require("../../assets/img/conteudo.mp4")} type="video/mp4" />
+              </video>
+              {/* 
+               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
                 width="70"
@@ -58,7 +72,7 @@ l7 -59 -43 39 c-182 163 -957 898 -952 903 7 8 782 130 809 128 16 -2 23 -18
 -4 -614 -10z"
                   />
                 </g>
-              </svg>
+              </svg>  */}
             </div>
             <div className="mt-5 textoSobre">
               <p data-aos="fade-up" style={{ color: "#fffda8" }}>
@@ -72,6 +86,10 @@ l7 -59 -43 39 c-182 163 -957 898 -952 903 7 8 782 130 809 128 16 -2 23 -18
             <div
               data-aos="fade-up"
               style={{ textAlign: "center", color: "#fffda8" }}>
+              <video width="100%" height="100%" muted autoPlay controls >
+                <source src={require("../../assets/img/conteudo_1.mp4")} type="video/mp4" />
+              </video>
+              {/* 
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +147,7 @@ m82 -1390 l38 -116 -22 -57 c-11 -31 -32 -73 -45 -95 l-23 -38 -6 58 c-16 152
 -28 227 -46 281 -24 73 -24 71 3 76 64 12 62 15 101 -109z"
                   />
                 </g>
-              </svg>
+              </svg> */}
             </div>
             <div className="mt-5 textoSobre">
               <p data-aos="fade-up" style={{ color: "#fffda8" }}>
@@ -141,7 +159,10 @@ m82 -1390 l38 -116 -22 -57 c-11 -31 -32 -73 -45 -95 l-23 -38 -6 58 c-16 152
             <div
               data-aos="fade-up"
               style={{ textAlign: "center", color: "#fffda8" }}>
-              <svg
+              <video width="100%" height="100%" muted autoPlay controls >
+                <source src={require("../../assets/img/conteudo_2.mp4")} type="video/mp4" />
+              </video>
+              {/*  <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
                 width="70"
@@ -208,7 +229,7 @@ c40 -43 118 -93 181 -115 l51 -18 -18 -48 c-45 -118 -150 -233 -241 -263 -88
 243 157 24 25 47 46 50 46 3 1 18 -12 35 -29z"
                   />
                 </g>
-              </svg>
+              </svg> */}
             </div>
             <div className="mt-5 textoSobre">
               <p data-aos="fade-up" style={{ color: "#fffda8" }}>
@@ -220,7 +241,10 @@ c40 -43 118 -93 181 -115 l51 -18 -18 -48 c-45 -118 -150 -233 -241 -263 -88
             <div
               data-aos="fade-up"
               style={{ textAlign: "center", color: "#fffda8" }}>
-              <svg
+              <video width="100%" height="100%" muted autoPlay controls >
+                <source src={require("../../assets/img/conteudo_3.mp4")} type="video/mp4" />
+              </video>
+              {/*   <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
                 width="70"
@@ -268,7 +292,7 @@ m-2197 -65 c81 -308 405 -490 709 -399 183 56 346 228 389 411 13 59 13 58 20
 880 -11 195 -14 757 -4 748 3 -3 12 -32 20 -64z"
                   />
                 </g>
-              </svg>
+            </svg> */}
             </div>
             <div className="mt-5 textoSobre">
               <p data-aos="fade-up" style={{ color: "#fffda8" }}>

@@ -1,7 +1,7 @@
 {
-  "name": "portfolio_matheusreact",
+  "name": "studio_bruna",
   "version": "1.2.2",
-  "description": "Adaptação de template público do Creative Tim",
+  "description": "Site do Studio de Dança Bruna Ferraz",
   "main": "index.js",
   "author": "Matheus Barbosa",
   "keywords": [
@@ -33,21 +33,18 @@
     "moment": "2.29.4",
     "nouislider": "15.4.0",
     "perfect-scrollbar": "1.5.5",
-    "react": ">=16.8.0",
+    "react": "^18.2.0",
     "react-chartjs-2": "2.11.2",
     "react-datetime": "3.2.0",
-    "react-dom": ">=16.8.0",
+    "react-dom": "^18.2.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "6.11.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^3.0.1",
     "react-type-animation": "^3.1.0",
     "reactstrap": "8.10.0",
-    "sass": "1.62.1",
+    "redux": "^5.0.1",
+    "video-react": "^0.16.0",
     "web-vitals": "3.3.1"
-  },
-  "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
   },
   "optionalDependencies": {
     "jquery": "3.7.0",
@@ -71,7 +68,8 @@
   "overrides": {
     "svgo": "3.0.2",
     "chokidar": "3.5.3",
-    "fsevents": "2.3.2"
+    "fsevents": "2.3.2",
+    "node-sass": "^9.0.0"
   },
   "browserslist": {
     "production": [
@@ -84,5 +82,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.71.0",
+    "sass-loader": "^14.1.0"
   }
 }
