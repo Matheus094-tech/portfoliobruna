@@ -19,6 +19,7 @@ export default function Sobre() {
         <video
           width="100%" height="100%"
           autoplay
+          loop
           playsinline
           controls
           src="${require("../../assets/img/video_studio.mp4")}"
@@ -38,6 +39,7 @@ export default function Sobre() {
         <video
           width="100%" height="100%"
           autoplay
+          loop
           playsinline
           controls
           muted
@@ -106,6 +108,7 @@ l7 -59 -43 39 c-182 163 -957 898 -952 903 7 8 782 130 809 128 16 -2 23 -18
         <video
           width="100%" height="100%"
           autoplay
+          loop
           playsinline
           controls
           muted
@@ -187,6 +190,7 @@ m82 -1390 l38 -116 -22 -57 c-11 -31 -32 -73 -45 -95 l-23 -38 -6 58 c-16 152
         <video
           width="100%" height="100%"
           autoplay
+          loop
           playsinline
           controls
           muted
@@ -277,6 +281,7 @@ c40 -43 118 -93 181 -115 l51 -18 -18 -48 c-45 -118 -150 -233 -241 -263 -88
         <video
           width="100%" height="100%"
           autoplay
+          loop
           playsinline
           controls
           muted
