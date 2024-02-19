@@ -14,9 +14,21 @@ export default function Sobre() {
         </h2>
         <Row>
           <Col md="12 mb-5" style={{ textAlign: "center" }}>
-          <video width="100%" height="100%" autoPlay controls >
-              <source src={require("../../assets/img/video_studio.mp4")} type="video/mp4" />
-            </video> 
+    
+          <div  dangerouslySetInnerHTML={{ __html: `
+        <video
+          loop
+          width="100%" height="100%"
+          muted
+          autoplay
+          playsinline
+          controls
+          src="${require("../../assets/img/video_studio.mp4")}"
+        />,
+      ` }}></div>
+
+
+     
           </Col>
         </Row>
 
