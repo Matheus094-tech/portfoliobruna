@@ -19,9 +19,10 @@ export default function Habilidades() {
           </h2>
           <p data-aos="fade-up" style={{ fontSize: 22 }}>Conheça nossas modalidades:</p>
           <Col md="12 mt-3 text-center">
-            <div class="cv-item " style={{ color: "#fffda8" }} data-aos="fade-up">
-              <h4 className="" style={{ color: "#fffda8" }}>Ballet de formação - Todas as idades</h4> 
-              {/* 
+            <Row>
+              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+                <h4 className="" style={{ color: "#fffda8" }}>Ballet de formação - Todas as idades</h4>
+                {/* 
               <img
                 alt="Ballet clássico"
                 height={400}
@@ -30,56 +31,58 @@ export default function Habilidades() {
                 src={require("assets/img/formacao.jpeg")}
               />
               */}
-              <p className="mt-3">
-                Nossas aulas de Ballet de Formação são projetadas para construir uma base sólida nas técnicas clássicas.
-                Ideal para crianças e adolescentes que desejam explorar a elegância e a disciplina do ballet.
-              </p>
-            </div>
-            <div class="cv-item mt-5" style={{ color: "#fffda8" }} data-aos="fade-up">
-              <h4 className="" style={{ color: "#fffda8" }}>Jazz Dance - A partir dos 6 anos</h4>
-                   {/*   <img
+                <p className="mt-3">
+                  Nossas aulas de Ballet de Formação são projetadas para construir uma base sólida nas técnicas clássicas.
+                  Ideal para crianças e adolescentes que desejam explorar a elegância e a disciplina do ballet.
+                </p>
+              </div>
+              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+                <h4 className="" style={{ color: "#fffda8" }}>Jazz Dance - A partir dos 6 anos</h4>
+                {/*   <img
                 alt="Jazz Dance"
                 height={400}
                 width={400}
                 className="img-fluid"
                 src={require("assets/img/jazz.jpeg")}
               />      */}
-              <p className="mt-3">
-                A energia e a vibração do Jazz Dance são exploradas em nossas aulas dinâmicas. Indicado para adolescentes
-                e adultos que buscam liberdade de movimento e autoexpressão.
-              </p>
-            </div>
-            <div class="cv-item mt-5" style={{ color: "#fffda8" }} data-aos="fade-up">
-              <h4 className="" style={{ color: "#fffda8" }}>Ballet adulto - A partir 15 anos</h4>
-                 {/* <img
+                <p className="mt-3">
+                  A energia e a vibração do Jazz Dance são exploradas em nossas aulas dinâmicas. Indicado para adolescentes
+                  e adultos que buscam liberdade de movimento e autoexpressão.
+                </p>
+              </div>
+              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+                <h4 className="" style={{ color: "#fffda8" }}>Ballet adulto - A partir 15 anos</h4>
+                {/* <img
                 alt="Jazz Dance"
                 height={400}
                 width={400}
                 className="img-fluid"
                 src={require("assets/img/adulto.jpeg")}
               />  */}
-              <p className="mt-3">
-                Nunca é tarde para começar a dançar! O Ballet Adulto oferece uma experiência enriquecedora,
-                promovendo flexibilidade, postura e bem-estar físico e menta.
-              </p>
-            </div>
-            <div class="cv-item mt-5" style={{ color: "#fffda8" }} data-aos="fade-up">
-              <h4 className="" style={{ color: "#fffda8" }}>Baby Class - A partir dos 4 anos</h4>
-                   {/*    <img
+                <p className="mt-3">
+                  Nunca é tarde para começar a dançar! O Ballet Adulto oferece uma experiência enriquecedora,
+                  promovendo flexibilidade, postura e bem-estar físico e menta.
+                </p>
+              </div>
+            </Row>
+            <Row className="mt-5">
+              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+                <h4 className="" style={{ color: "#fffda8" }}>Baby Class - A partir dos 4 anos</h4>
+                {/*    <img
                 alt="Baby Class"
                 height={400}
                 width={400}
                 className="img-fluid"
                 src={require("assets/img/baby.jpeg")}
               /> */}
-              <p className="mt-3">
-                Para os nossos bailarinos(as) mais jovens, o Baby Class é uma introdução
-                lúdica ao mundo da dança. Focada no desenvolvimento motor e na expressão criativa.
-              </p>
-            </div>
-            <div class="cv-item mt-5" style={{ color: "#fffda8" }} data-aos="fade-up">
-              <h4 className="" style={{ color: "#fffda8" }}>Psicomotricidade (Baby-Fraldinha) - A partir dos 1 ano e 8 meses</h4>
-              {/*  <img
+                <p className="mt-3">
+                  Para os nossos bailarinos(as) mais jovens, o Baby Class é uma introdução
+                  lúdica ao mundo da dança. Focada no desenvolvimento motor e na expressão criativa.
+                </p>
+              </div>
+              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+                <h4 className="" style={{ color: "#fffda8" }}>Psicomotricidade (Baby-Fraldinha) - A partir dos 1 ano e 8 meses</h4>
+                {/*  <img
               <h4 className="" style={{ color: "#fffda8" }}>Psicomotricidade (Baby-Fraldinha)</h4>
               <img
                 alt="Baby Fraldinha"
@@ -88,13 +91,13 @@ export default function Habilidades() {
                 className="img-fluid"
                 src={require("assets/img/fraldinha.jpeg")}
               /> */}
-              <p className="mt-3">
-                A Psicomotricidade é integrada às nossas aulas para promover o desenvolvimento físico, cognitivo e emocional. Adequada para desenvolver e preparar crianças apartir de 1 ano e 8 meses.
-              </p>
-            </div>
-            <div class="cv-item mt-5" style={{ color: "#fffda8" }} data-aos="fade-up">
-              <h4 className="" style={{ color: "#fffda8" }}>Ballet infantil - A partir dos 6 anos</h4>
-              {/*   <img
+                <p className="mt-3">
+                  A Psicomotricidade é integrada às nossas aulas para promover o desenvolvimento físico, cognitivo e emocional. Adequada para desenvolver e preparar crianças apartir de 1 ano e 8 meses.
+                </p>
+              </div>
+              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+                <h4 className="" style={{ color: "#fffda8" }}>Ballet infantil - A partir dos 6 anos</h4>
+                {/*   <img
               <h4 className="" style={{ color: "#fffda8" }}>Ballet infantil</h4>
               <img
                 alt="Jazz Dance"
@@ -103,14 +106,16 @@ export default function Habilidades() {
                 className="img-fluid"
                 src={require("assets/img/infantil.jpeg")}
               />  */}
-              
-              <p className="mt-3">
-                O Ballet infantil é uma introdução encantadora à dança para os mais jovens, explorando movimentos delicados e promovendo desenvolvimento físico, coordenação motora e autoconfiança.
-                As aulas criam uma base sólida, nutrindo a criatividade e permitindo que as crianças descubram a magia da dança clássica.
-              </p>
-            </div>
+
+                <p className="mt-3">
+                  O Ballet infantil é uma introdução encantadora à dança para os mais jovens, explorando movimentos delicados e promovendo desenvolvimento físico, coordenação motora e autoconfiança.
+                  As aulas criam uma base sólida, nutrindo a criatividade e permitindo que as crianças descubram a magia da dança clássica.
+                </p>
+              </div>
+            </Row>
           </Col>
         </Row>
+        {/*
         <Row className="mt-5">
           <Col data-aos="fade-up" md="6 text-center">
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -284,6 +289,7 @@ c367 443 366 442 314 493 -31 32 -78 33 -108 3 -12 -13 -150 -178 -307 -367
             </div>
           </Col>
         </Row>
+         */}
       </Container>
     </div>
   );
