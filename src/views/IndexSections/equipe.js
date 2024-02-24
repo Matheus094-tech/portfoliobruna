@@ -20,7 +20,7 @@ export default function Habilidades() {
           <p data-aos="fade-up" style={{ fontSize: 22 }}>Conheça nossas modalidades:</p>
           <Col md="12 mt-3 text-center">
             <Row>
-              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+              <div class="cv-item col-md-4 mt-3" style={{ color: "#fffda8" }} data-aos="fade-up">
                 <h4 className="" style={{ color: "#fffda8" }}>Ballet de formação - Todas as idades</h4>
                 {/* 
               <img
@@ -36,7 +36,7 @@ export default function Habilidades() {
                   Ideal para crianças e adolescentes que desejam explorar a elegância e a disciplina do ballet.
                 </p>
               </div>
-              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+              <div class="cv-item col-md-4 mt-3" style={{ color: "#fffda8" }} data-aos="fade-up">
                 <h4 className="" style={{ color: "#fffda8" }}>Jazz Dance - A partir dos 6 anos</h4>
                 {/*   <img
                 alt="Jazz Dance"
@@ -50,7 +50,7 @@ export default function Habilidades() {
                   e adultos que buscam liberdade de movimento e autoexpressão.
                 </p>
               </div>
-              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+              <div class="cv-item col-md-4 mt-3" style={{ color: "#fffda8" }} data-aos="fade-up">
                 <h4 className="" style={{ color: "#fffda8" }}>Ballet adulto - A partir 15 anos</h4>
                 {/* <img
                 alt="Jazz Dance"
@@ -66,7 +66,7 @@ export default function Habilidades() {
               </div>
             </Row>
             <Row className="mt-5">
-              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+              <div class="cv-item col-md-4 mt-3" style={{ color: "#fffda8" }} data-aos="fade-up">
                 <h4 className="" style={{ color: "#fffda8" }}>Baby Class - A partir dos 4 anos</h4>
                 {/*    <img
                 alt="Baby Class"
@@ -80,7 +80,7 @@ export default function Habilidades() {
                   lúdica ao mundo da dança. Focada no desenvolvimento motor e na expressão criativa.
                 </p>
               </div>
-              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+              <div class="cv-item col-md-4 mt-3" style={{ color: "#fffda8" }} data-aos="fade-up">
                 <h4 className="" style={{ color: "#fffda8" }}>Psicomotricidade (Baby-Fraldinha) - A partir dos 1 ano e 8 meses</h4>
                 {/*  <img
               <h4 className="" style={{ color: "#fffda8" }}>Psicomotricidade (Baby-Fraldinha)</h4>
@@ -95,7 +95,7 @@ export default function Habilidades() {
                   A Psicomotricidade é integrada às nossas aulas para promover o desenvolvimento físico, cognitivo e emocional. Adequada para desenvolver e preparar crianças apartir de 1 ano e 8 meses.
                 </p>
               </div>
-              <div class="cv-item col-md-4" style={{ color: "#fffda8" }} data-aos="fade-up">
+              <div class="cv-item col-md-4 mt-3" style={{ color: "#fffda8" }} data-aos="fade-up">
                 <h4 className="" style={{ color: "#fffda8" }}>Ballet infantil - A partir dos 6 anos</h4>
                 {/*   <img
               <h4 className="" style={{ color: "#fffda8" }}>Ballet infantil</h4>

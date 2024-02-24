@@ -26,7 +26,7 @@ export default function Sobre() {
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                         <p className="mt-2 fs-5">
-                            R. Olho D Água do Casado, 102 - Jardim Carvalho, Guarulhos - SP, 07244-380.
+                            R. Olho D Água do Casado, 94 - Jardim Carvalho, Guarulhos - SP, 07244-380.
                         </p>
                     </Col>
 
