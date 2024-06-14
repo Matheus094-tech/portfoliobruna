@@ -67,7 +67,7 @@ export default function Habilidades() {
             </Row>
             <Row className="mt-5">
               <div class="cv-item col-md-4 mt-3" style={{ color: "#fffda8" }} data-aos="fade-up">
-                <h4 className="" style={{ color: "#fffda8" }}>Baby Class - A partir dos 4 anos</h4>
+                <h4 className="" style={{ color: "#fffda8" }}>Baby Class - A partir dos 3 anos</h4>
                 {/*    <img
                 alt="Baby Class"
                 height={400}
@@ -80,6 +80,7 @@ export default function Habilidades() {
                   lúdica ao mundo da dança. Focada no desenvolvimento motor e na expressão criativa.
                 </p>
               </div>
+              {/*  
               <div class="cv-item col-md-4 mt-3" style={{ color: "#fffda8" }} data-aos="fade-up">
                 <h4 className="" style={{ color: "#fffda8" }}>Psicomotricidade (Baby-Fraldinha) - A partir dos 1 ano e 8 meses</h4>
                 {/*  <img
@@ -90,7 +91,7 @@ export default function Habilidades() {
                 width={400}
                 className="img-fluid"
                 src={require("assets/img/fraldinha.jpeg")}
-              /> */}
+              /> */} {/*
                 <p className="mt-3">
                   A Psicomotricidade é integrada às nossas aulas para promover o desenvolvimento físico, cognitivo e emocional. Adequada para desenvolver e preparar crianças apartir de 1 ano e 8 meses.
                 </p>
@@ -105,13 +106,13 @@ export default function Habilidades() {
                 width={400}
                 className="img-fluid"
                 src={require("assets/img/infantil.jpeg")}
-              />  */}
+              />  */}{/*
 
                 <p className="mt-3">
                   O Ballet infantil é uma introdução encantadora à dança para os mais jovens, explorando movimentos delicados e promovendo desenvolvimento físico, coordenação motora e autoconfiança.
                   As aulas criam uma base sólida, nutrindo a criatividade e permitindo que as crianças descubram a magia da dança clássica.
                 </p>
-              </div>
+              </div>*/}
             </Row>
           </Col>
         </Row>
