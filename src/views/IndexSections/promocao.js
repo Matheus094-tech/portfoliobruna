@@ -3,11 +3,8 @@ import React, { useState, useEffect } from 'react';
 import "./promocao.css";
 
 const Promocao = () => {
-  // Especifique a data-alvo da promoção
-  const targetDate = new Date("2024-11-30T23:59:59").getTime(); // Exemplo: 31 de dezembro de 2024 às 23:59:59
+  const targetDate = new Date("2024-11-30T23:59:59").getTime();
   const [timeLeft, setTimeLeft] = useState(targetDate - new Date().getTime());
-
-  // Estado para controlar o modal
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => setModal(!modal);
@@ -19,7 +16,7 @@ const Promocao = () => {
       setTimeLeft(targetDate - new Date().getTime());
     }, 1000);
 
-    return () => clearInterval(intervalId); // Limpa o intervalo ao desmontar o componente
+    return () => clearInterval(intervalId);
   }, [timeLeft, targetDate]);
 
   const formatTime = (milliseconds) => {
@@ -33,7 +30,7 @@ const Promocao = () => {
   };
 
   return (
-    <Container>
+    <Container className="container-fixo">
       <h2 style={{ color: "#fffda8", marginTop: 125, fontSize: '2.5rem' }} className="text-center title texto-piscando">
         PROMOÇÃO IMPERDÍVEL EM
       </h2>
@@ -53,23 +50,17 @@ const Promocao = () => {
             <span style={{ fontWeight: 'bold', fontSize: '1.5rem' }}>🎉 Promoção de Fim de Ano! 🎉 <br></br></span>
             <span style={{ fontSize: 18 }}><br></br><br></br>
               De 1º a 22 de dezembro, <span style={{ fontWeight: 'bold' }}>pague apenas a taxa de matrícula de R$60</span> e comece a dançar! <br></br><br></br>
-              <span style={{ fontWeight: 'bold' }}>     💃 Primeira mensalidade só em fevereiro de 2025! <br></br><br></br></span>
-             
-          
-
+              <span style={{ fontWeight: 'bold' }}>💃 Primeira mensalidade só em fevereiro de 2025! <br></br><br></br></span>
               <span style={{ fontWeight: 'bold' }}>📢 Vagas limitadas! <br></br>      </span>
-                Studio de Dança Bruna Ferraz <br></br><br></br>
-                <span style={{ fontWeight: 'bold' }}>📢   Garanta sua vaga agora mesmo e comece 2025 dançando conosco!<br>
-                </br>  Clique aqui:  <a
+              Studio de Dança Bruna Ferraz <br></br><br></br>
+              <span style={{ fontWeight: 'bold' }}>📢 Garanta sua vaga agora mesmo e comece 2025 dançando conosco!<br></br> Clique aqui:  
+                <a
                   href="https://api.whatsapp.com/send/?phone=5511964230207&text=Ol%C3%A1%2C+quero+aproveitar+a+promo%C3%A7%C3%A3o+de+fim+de+ano+do+Studio+de+Dan%C3%A7a+Bruna+Ferraz%21+Pode+me+passar+mais+informa%C3%A7%C3%B5es%3F&type=phone_number&app_absent=0"
                   target="_blank"
                   class="iconeWhatsapp">
                   <i class="lab la-whatsapp"></i>
                 </a>
-                  </span>
-              
-              
-        
+              </span>
             </span>
           </p>
         </ModalBody>
