@@ -239,16 +239,29 @@ body {
     opacity: 0.1;
     animation-duration: 9s;
   }
+}
 
-  /* PageHeader.css */
+.index-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px; /* Ajuste conforme necessário */
+  background-color: #333;
+  color: white;
+  z-index: 1000;
+}
+
 .page-header {
-  position: relative; /* Certifique-se de que o conteúdo do header está em uma camada normal */
-  z-index: 1; /* Defina o z-index da header para garantir que o modal fique acima */
+  margin-top: 60px; /* Ajuste conforme a altura do seu navbar */
 }
 
-.header.fundo-um {
-  position: relative;
-  z-index: 1; /* Mantenha a imagem no nível mais baixo, abaixo do modal */
-}
+@media (max-width: 768px) {
+  .index-navbar {
+    height: 50px; /* Ajuste para telas pequenas */
+  }
 
+  .page-header {
+    margin-top: 50px; /* Ajuste de acordo com a altura do navbar em telas pequenas */
+  }
 }
