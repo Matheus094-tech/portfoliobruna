@@ -31,7 +31,7 @@ const Promocao = () => {
 
   return (
     <Container className="container-fixo">
-      <h2 style={{ color: "#fffda8", marginTop: 125, fontSize: '1.5rem' }} className="text-center title texto-piscando">
+      <h2 style={{ color: "#fffda8", marginTop: 55, fontSize: '1.5rem' }} className="text-center title texto-piscando">
         PROMOÇÃO IMPERDÍVEL EM
       </h2>
       <Row>
