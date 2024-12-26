@@ -1,4 +1,4 @@
-import { Container, Row, Col, Modal, ModalHeader, ModalBody, ModalFooter, Button } from "reactstrap";
+import { Container, Row, Col, Modal, ModalBody, ModalFooter, Button } from "reactstrap";
 import React, { useState, useEffect } from 'react';
 import "./promocao.css";
 
@@ -53,7 +53,7 @@ const Promocao = () => {
               <span style={{ fontWeight: 'bold' }}>💃 Primeira mensalidade só em fevereiro de 2025! <br></br><br></br></span>
               <span style={{ fontWeight: 'bold' }}>📢 Vagas limitadas! <br></br>      </span>
               Studio de Dança Bruna Ferraz <br></br><br></br>
-              <span style={{ fontWeight: 'bold' }}>📢 Garanta sua vaga agora mesmo e comece 2025 dançando conosco!<br></br> Clique aqui:  
+              <span style={{ fontWeight: 'bold' }}>📢 Garanta sua vaga agora mesmo e comece 2025 dançando conosco!<br></br> Clique aqui:
                 <a
                   href="https://api.whatsapp.com/send/?phone=5511964230207&text=Ol%C3%A1%2C+quero+aproveitar+a+promo%C3%A7%C3%A3o+de+fim+de+ano+do+Studio+de+Dan%C3%A7a+Bruna+Ferraz%21+Pode+me+passar+mais+informa%C3%A7%C3%B5es%3F&type=phone_number&app_absent=0"
                   target="_blank"
